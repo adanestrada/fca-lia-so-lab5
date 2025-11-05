@@ -46,7 +46,7 @@ docker exec spark-master /opt/spark/bin/spark-submit --class org.apache.spark.ex
 # Se debe modificar el comando de ejecución de una aplicación de Spark en tres ocasiones.
 # Crear su pdf de entrega de evidencias con la captura de la pantalla de la Spark UI después de haber ejecutado 3 veces la aplicación de Pi
 # Crear una tabla con los resultados de Pi, error y tiempo de ejecución del cluster por cada ejecución (3)
-
+# Después de finalizar el Ejercicio 1 y obntener su evidencia, eliminar los contenedores de los nodos worker. (Solo dejar contenedor del nodo Master) Para Ejericio 2
 #########################################################
 
 
@@ -60,5 +60,5 @@ docker exec spark-master /opt/spark/bin/spark-submit --class org.apache.spark.ex
 # Se debe modificar el comando de ejecución de una aplicación de Spark en tres ocasiones.
 # Crear su pdf de entrega de evidencias con la captura de la pantalla de la Spark UI después de haber ejecutado 3 veces la aplicación de Pi
 # Crear una tabla con los resultados de Pi, error y tiempo de ejecución del cluster por cada ejecución (3)
-
+# Después de finalizar el Ejercicio 1 y obntener su evidencia, eliminar los contenedores de los nodos worker. (Solo dejar contenedor del nodo Master) Para Ejericio 2
 #########################################################
