@@ -17,13 +17,13 @@ docker run -d --name spark-worker-2 --link spark-master:spark-master apache/spar
 #4. Example command to submit a Spark Application (Pi Montecarlo using 10 partitions):
 docker exec spark-master /opt/spark/bin/spark-submit --class org.apache.spark.examples.SparkPi --master spark://172.17.0.2:7077 /opt/spark/examples/jars/spark-examples_2.13-4.0.1.jar 10000
 
-#Example command to delete container
-### Remove the Container: docker rm <container_name>
-docker rm spark-worker-1
+#Example command to stop and delete container.
+### Force stop and remove the Container: docker rm -f <container_name>
 
 
-
-# Después de probar los comandos de ejemplo previos. Eliminar el contenedor del worker. (Solo dejar contenedor del nodo Master) Para los siguientes Ejericios
+# Después de probar los comandos de ejemplo previos. Eliminar contenedores worker. (Solo dejar contenedor del nodo Master) Para los siguientes Ejericios
+docker rm -f spark-worker-1
+docker rm -f spark-worker-2
 
 
 #########################################################
