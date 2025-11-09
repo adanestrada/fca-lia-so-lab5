@@ -9,9 +9,7 @@
 
 Los pasos son los siguientes
 1. Crear las carpetas y archivos requeridos
-2. Modificar la página web (index.html)
-3. Correr los comandos Docker en la terminal de Windows o Mac segun sea el caso.
-4. Confirmar que se puede visualizar la página web
+2. Correr los comandos Docker en la terminal de Windows o Mac segun sea el caso.  
 
 
 ## 1 Crear las carpetas y los archivos requeridos
@@ -46,9 +44,8 @@ o Mac.
 
 
 ## 3. Confirmar que se puede visualizar la página web
-1. Confirmar en su navegador que es posible visualizar la [página web](http://localhost:8080/).
 2. Crear un docuemnto pdf con las capturas de pantalla de cada salida de los comandos ejecutados del archivo de apoyo: ```so_host_commands.sh``` 
-3. Agregar la captura de pantalla de la visualización de la página web en el navegador (Spark UI).
+3. Agregar la captura de pantalla de la visualización de la página web en el navegador (Spark UI) con la configuración del cluster y la aplicación ejecutada. 
 4. Agregar las respuestas a las preguntas del archivo: ```so_host_commands.sh```.
 
 
